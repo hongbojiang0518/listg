@@ -26,5 +26,9 @@ public class Hello {
 
        for(String aa1:str)
             System.out.println(aa1);
+
+       System.out.println("w0000000000------00");
     }
+
+
 }
