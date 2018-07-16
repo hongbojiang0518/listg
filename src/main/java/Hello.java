@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.*;
 
 public class Hello {
     public static void main(String[] args){
@@ -28,6 +27,22 @@ public class Hello {
             System.out.println(aa1);
 
        System.out.println("w0000000000------00");
+      System.out.println("------------------------");
+        HashMap<String,String> hs=new HashMap<String, String>();
+        hs.put("1","name");
+        hs.put("2","age");
+        hs.put("3","music");
+        hs.put("4","work");
+
+        //HashSet<Map.Entry<String,String>> en=hs.entrySet();
+        for(Map.Entry<String, String> entry: hs.entrySet())
+        {
+            System.out.println("Key: "+ entry.getKey()+ " Value: "+entry.getValue());
+        }
+
+
+
+         new Dog().jiao();
     }
 
 
