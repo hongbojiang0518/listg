@@ -17,5 +17,14 @@ public class Hello {
         }*/
        for(Integer aa:al)
            System.out.println(aa);
+
+       ArrayList<String> str=new ArrayList<String>();
+       str.add("hello");
+       str.add("hgfflo");
+       str.add("erwero");
+       str.add("3435thello");
+
+       for(String aa1:str)
+            System.out.println(aa1);
     }
 }
